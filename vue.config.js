@@ -1,6 +1,7 @@
 module.exports = {
-  configureWebpack: {
-    devtool: 'source-map',
-  },
+  productionSourceMap: false,
   lintOnSave: false,
-};
+  configureWebpack: {
+    devtool: 'source-map'
+  }
+}
