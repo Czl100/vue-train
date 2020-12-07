@@ -1,4 +1,4 @@
-module.exports = {
+const initConfig = {
   root: true,
   env: {
     node: true
@@ -10,6 +10,9 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-extra-semi': 0
+    'no-extra-semi': 'off',
+    'space-before-function-paren': 'error'
   }
 }
+
+module.exports = initConfig

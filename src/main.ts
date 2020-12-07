@@ -6,6 +6,7 @@ import store from './store'
 Vue.config.productionTip = false
 
 console.debug('实例化根vue')
+
 new Vue({
   router,
   store,
